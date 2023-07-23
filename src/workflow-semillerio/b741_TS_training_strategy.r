@@ -11,7 +11,7 @@ require("yaml")
 
 # Parametros del script
 PARAM <- list()
-PARAM$experimento <- "AD7410"
+PARAM$experimento <- "AE7410"
 
 PARAM$exp_input <- "AD7310"
 
@@ -31,8 +31,8 @@ PARAM$train$training <- c(
   201906, 201905, 201904, 201903
 )
 
-PARAM$train$validation <- c(202102)
-PARAM$train$testing <- c(202105, 202104, 202103)
+PARAM$train$validation <- c(202105, 202102)
+PARAM$train$testing <- c(202106, 202104, 202103)
 
 # Atencion  0.4  de  undersampling de la clase mayoritaria,  los CONTINUA
 # 1.0 significa NO undersampling ,  0.1  es quedarse con el 10% de los CONTINUA
